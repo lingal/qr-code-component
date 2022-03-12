@@ -1,0 +1,30 @@
+.card {
+  width: 90vw;
+  max-width: 24rem;
+  background-color: var(--White);
+  border-radius: 15px;
+  padding: 1rem 1rem 1.75rem 1rem;
+  display: grid;
+  gap: 1.5rem;
+}
+.card-img img{
+  border-radius: 10px;
+}
+.card-text {
+  text-align: center;
+  padding-inline: 1rem;
+}
+.card-text h1 {
+  font-size: 1.2rem;
+  font-size: clamp(1.3rem, 5vw, 1.5rem);
+  color: var(--darkBlue);
+  margin-bottom: 1rem;
+  font-weight: var(--fw-700);
+}
+
+.card-text p {
+  font-size: 0.937rem;
+  color: var(--grayishBlue);
+  opacity: 0.7;
+  font-weight: var(--fw-400);
+}
