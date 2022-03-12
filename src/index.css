@@ -9,6 +9,11 @@
   --fw-700: 700;
 }
 
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: auto;
+}
 * {
   margin: 0;
   padding: 0;
